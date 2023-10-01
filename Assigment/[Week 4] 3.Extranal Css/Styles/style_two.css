@@ -1,0 +1,22 @@
+ h1 {
+    background-color: violet; 
+    color: black;
+    font-size: 30px;
+}
+
+p {
+    color: brown;
+    font-size: 10px;
+    font-style: italic;
+}
+
+h2 {
+   background-color: aqua;
+   color: blue;
+
+}
+h3 {
+ background-color: beige;
+ color:palevioletred;
+ font-style: oblique;
+}
