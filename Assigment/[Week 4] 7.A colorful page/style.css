@@ -1,0 +1,28 @@
+body{
+    background-image: url(images/helloautumn.jpg) ;
+    background-size: 1900px;
+}
+
+h1{
+    font-size: 100px;
+    background: linear-gradient(90deg, rgba(226,240,25,1) 0%, rgba(242,186,7,1) 21%, rgba(221,177,80,0.9893207282913166) 46%, rgba(214,62,16,1) 100%);
+    color: #846D65;
+}
+
+nav{
+    background: rgba(253,239,29,0.5);
+    font-size: 35px;
+}
+
+.class1{
+    background: linear-gradient(90deg, rgba(226,240,25,1) 0%, rgba(242,186,7,1) 21%, rgba(221,177,80,0.9893207282913166) 46%, rgba(214,62,16,1) 100%);
+    font-size: 25px;
+    color: #261d1b;
+}
+
+.class2{
+    background: linear-gradient(90deg, rgba(219,255,27,1) 0%, rgba(224,172,8,1) 44%, rgba(221,177,80,0.9893207282913166) 62%, rgba(245,255,3,1) 100%);
+    font-size: 25px;
+    color: #450707;
+
+}
