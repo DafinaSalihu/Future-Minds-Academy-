@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(51, 55, 58);
+}
+
+p{
+font-family: 'Mooli';
+color: rgb(189, 160, 223);
+width: 900px;
+font-size: 30px;
+
+}
+
+.span1{
+ font-family: 'Mooli';
+ text-decoration: underline #196f7b;
+ font-weight: bold;
+ text-transform: uppercase ;
+ font-size: 150px;
+ float: left;
+}
+
+.span2{
+    font-size: 45px;
+    font: 'Mooli';
+    font-weight: bold;
+    text-transform: uppercase;
+}
