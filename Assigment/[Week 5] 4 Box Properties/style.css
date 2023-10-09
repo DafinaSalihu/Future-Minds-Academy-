@@ -1,0 +1,21 @@
+article{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    border: 5px solid rgb(13, 1, 1);
+    margin:250px;
+    padding: 30px ;
+    
+}
+
+#img-ny{
+    border: 3px solid #000000;
+    float: left; 
+    margin: 5px 10px 5px 5px;
+
+}
+
+#img-ny:hover{
+    border:5px dotted #ff0000;
+    padding: 15px 15px 15px 10px;
+    cursor: pointer; 
+}

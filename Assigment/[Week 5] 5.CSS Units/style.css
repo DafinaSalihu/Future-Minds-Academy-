@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    
+}
+
+h2{
+    font-size: 2em;
+    text-decoration: underline;   
+}
+
+section{
+    height: 25vh;
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid black;
+    border-collapse: collapse;
+    }
+
+p{
+    font-size: 1em;
+}
+
+.box-1{
+    background-color: rgb(98, 21, 34);
+    color: rgb(248, 247, 247);   
+}
+
+.box-2{
+    background-color: rgb(232, 173, 183);
+    color: rgb(51, 5, 5);
+    
+}
+
+.box-3{
+    background-color: rgb(98, 21, 34);
+    color: rgb(248, 247, 247);
+}
+
+.box-4{
+    background-color: rgb(232, 173, 183);
+    color: rgb(51, 5, 5);
+}
+
+hr{
+    width: 33%;
+   
+}
