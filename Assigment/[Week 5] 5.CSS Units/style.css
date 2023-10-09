@@ -1,6 +1,6 @@
-body{
+body,section,h2{
     margin:0;
-    
+    padding: 0;  
 }
 
 h2{
@@ -10,9 +10,8 @@ h2{
 
 section{
     height: 25vh;
-    width: 50%;
+    width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 3px solid black;
     border-collapse: collapse;
     }
 
@@ -43,5 +42,7 @@ p{
 
 hr{
     width: 33%;
-   
+    border: 1px solid red;
+    margin-top: 50px;
 }
+
