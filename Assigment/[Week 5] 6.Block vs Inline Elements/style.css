@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hellothere{
+    width: 50%;
+}
+ h1{
+     font-weight: bold;
+     font-size: 2em;
+ }
+
+ p{
+ font-size: 1.5em;
+ }
+
+h1,p{
+    display: inline;
+    width: 50%;
+}
