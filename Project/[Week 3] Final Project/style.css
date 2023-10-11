@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background1.jpg);     
+}
+
+header{
+    font-size: 2em;
+    position: relative;
+    left: 370px;
+}
+
+li a{
+    display:inline;
+    background-color: rgb(51, 96, 96);
+    color: white;
+    position: relative;
+    left: 350px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+hr{
+    width: 55%;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
+    left: 210px;
+}
+
+#html{
+    background-color: rgb(218, 255, 163);
+    color: rgb(0, 0, 0);
+    margin: 10px 100px 10px 200px;
+    padding: 25px;
+    width: 1000px;
+    border-radius: 5%;  
+    
+}
+
+img,h2{
+    margin: 10px 350px 10px 300px;
+}
+
+.section-1{
+    background-color: rgba(230, 179, 85,0.8);
+    color: rgb(0, 0, 0);
+    margin: 10px 100px 10px 200px;
+    padding: 25px;
+    width: 1000px;
+    border-radius: 5%;  
+}
+ .list-education1{
+    background-color: white;
+    color: rgb(111, 30, 0);
+    border-radius: 10%;
+    padding: 10px;
+    margin:10px;
+ }
+
+ .list-education2{
+    background-color: white;
+    color: rgb(111, 30, 0);
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+ }
+ .list-education3{
+    background-color: white;
+    color: rgb(111, 30, 0);
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+ }
