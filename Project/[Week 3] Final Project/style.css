@@ -79,8 +79,8 @@ border:2px solid red;
 }
 .header-3{
     color: rgb(67, 71, 67);
+    list-style-type: none;
 }
-
 .section-2{
     background-color: rgba(17, 238, 172, 0.8);
     border-radius: 30px;
@@ -126,7 +126,7 @@ aside:hover{
 .projects{
    background-color:orange;
    border: solid rgb(54, 14, 0);
-   margin-top: 10px;
+   margin-top: 15px;
    border-radius: 30px;
 }
 .projects a{
@@ -137,7 +137,7 @@ aside:hover{
     rgba(221,177,80,0.9893207282913166) 62%, rgba(245,255,3,0.5) 100%);
     border-radius: 60px;
     border: 3px solid rgb(4, 33, 4);
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 1.3em;
 }
 
