@@ -1,93 +1,173 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body{
-    background-image: url(images/background1.jpg);     
+    margin: 0px 100px 0px 100px;
+    background-image:url('images/background1.jpg');
 }
 
-header{
-    font-size: 2em;
-    position: relative;
-    left: 500px;
+body:hover{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='28' height='34' viewport='0 0 100 100' style='fill:black;font-size:17px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
-
-.ul-1 {
-    text-decoration: none;
-    font-size: 1.5em;
-    width: 50%;
-    margin: 10px;
-}
-
-.list-1{
-    display: inline-block;
-    list-style-type: none;
-    margin-inline:20px;
-    background-color: rgb(3, 194, 194);
-    color: rgb(255, 255, 255);
-    border-radius: 10%;
-    position: relative;
-    left: 500px;
-}
-
 hr{
-    width: 55%;
-    border: 1px solid rgb(0, 0, 0);
-    position: relative;
-    left: 250px;
-}
-
-#html{
-    background-color: rgb(218, 255, 163);
+    border: 1px solid black;
     color: rgb(0, 0, 0);
-    margin: 10px 200px 10px 200px;
-    padding: 25px;
-    width: 1050px;
-    border-radius: 5%;  
-    position:relative;
-    left: 50px;
-    
 }
 
-img,h2{
-    margin: 10px 350px 10px 300px;
+.title{
+    text-align: center;
+    font-size: 2em;
+}
+
+nav ul li{
+    display: inline;
+
+}
+nav ul{
+    text-align: center;
+    padding: 0;
+}
+
+.list-1 a{
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+ .list-1 a:hover{
+background-color: blue;
+border:2px solid red;
+ }
+
+ .articelone{
+    background-color: aquamarine;
+    border-radius: 30px;
+    border: 3px solid rgb(3, 25, 3);
+    text-align: center;
+ }
+ .articelone:hover{
+  background-color: #13352a;
+  color: white;
+  border: 3px solid blue;
+ }
+.articelone p{
+    font-size: 1.2em;
+    padding:20px;
+    text-align: justify;
 }
 
 .section-1{
-    background-color: rgba(230, 179, 85,0.8);
-    color: rgb(0, 0, 0);
-    margin: 10px 200px 10px 200px;
-    padding: 25px;
-    width: 1050px;
-    border-radius: 5%;  
-    position:relative;
-    left: 50px;
-}
- .list-education1{
-    background-color: white;
-    color: rgb(111, 30, 0);
-    border-radius: 10%;
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
+    background-color: rgb(67, 215, 141);
+    border-radius: 30px;
+    border: 3px solid rgb(1, 3, 1);
+    margin-top: 10px;
 }
 
+.section-header{
+    text-align: center;
+}
 
- .list-education2{
-    background-color: white;
-    color: rgb(111, 30, 0);
-    border-radius: 10%;
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
- }
- .list-education3{
-    background-color: white;
-    color: rgb(111, 30, 0);
-    border-radius: 10%;
-    list-style-type: none;
-    padding: 10px;
-    margin: 10px;
- }
+.section-1:hover{
+    background: linear-gradient(90deg, rgba(219,255,27,0.5) 25%, rgba(8,224,174,0.5) 44%,
+    rgba(221,177,80,0.9893207282913166) 62%, rgba(245,255,3,0.5) 100%);
+    border-radius: 60px;
+    border: 3px solid rgb(4, 33, 4);
+    margin-top: 10px;
+    font-size: 1.3em;
+
+}
+.header-3{
+    color: rgb(67, 71, 67);
+}
+
+.section-2{
+    background-color: rgba(17, 238, 172, 0.8);
+    border-radius: 30px;
+   padding-bottom: 10px;
+  
+}
+.table{
+    margin: 10px 0px 20px 20px;
+    height: 15vh;
+    width: 50%;
+    border-color:#000000;
+    border-collapse: collapse;
+}
+.section-2:hover{
+    background-color: rgb(194, 225, 131);
+    border: 3px solid black;
+    color:#000000;
+    margin-top: 10px;
+
+}
+td{
+    background-color: rgb(40, 207, 40);
+}
+th{
+    background-color: rgb(10, 118, 10);
+}
+
+aside{
+    background-color: rgba(147, 210, 38, 0.8);
+    border: 2px dotted black;
+    border-radius: 30px;
+   padding-bottom: 10px;
+   margin-top: 10px;
+}
+
+aside:hover{
+    background-color: rgb(244, 174, 77);
+    border: 2px solid black;
+    color:#000000;
+    margin-top: 10px;
+}
+
+.projects{
+   background-color:orange;
+   border: solid rgb(54, 14, 0);
+   margin-top: 10px;
+   border-radius: 30px;
+}
+.projects a{
+    text-decoration: none;
+}
+.projects:hover{
+    background: linear-gradient(90deg, rgba(219,255,27,0.5) 25%, rgba(8,224,174,0.5) 44%,
+    rgba(221,177,80,0.9893207282913166) 62%, rgba(245,255,3,0.5) 100%);
+    border-radius: 60px;
+    border: 3px solid rgb(4, 33, 4);
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactme {
+    background-color: rgb(128, 255, 212);
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.readmore {
+    position: relative;
+    bottom: 7px; ;
+    background-color: red;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.project-1:hover{
+ background-color: rgba(198, 228, 138,0.6);
+}
+.project-2:hover{
+    background-color: rgba(44, 240, 30, 0.6);
+}

@@ -13,26 +13,26 @@
 </head>
 
 <body>
-
+    <hr>
     <header>
-        <h1>Personal Portfolio</h1>
+        <h1 class="title">Personal Portfolio</h1>
     </header>
     <main>
-        <article>
-            <nav area-label="primary-navigation">
-                <hr>
-                <ul class="ul-1">
-                    
-                        <li class="list-1"> <a href="myprojects.html"> My Projects&#x1F31F;</a> </li>
-                        <li class="list-1"> <a href="contact.html">Contact Me&#128222; </a> </li>
-                    
-                </ul>
-                <hr>
-            </nav>
-        </article>
 
-        <article id="html">
-            <h2>Who is Dafina Salihu ?</h2>
+        <nav>
+
+            <ul>
+
+                <li class="list-1"> <a href="myprojects.html"> My Projects&#x1F31F;</a> </li>
+                <li class="list-1">|</li>
+                <li class="list-1"> <a href="contact.html">Contact Me&#128222; </a> </li>
+
+            </ul>
+            <hr>
+        </nav>
+
+        <article class="articelone">
+            <h2 class="section-header">Who is Dafina Salihu ?</h2>
             <img src="images/dafina.jpg" alt="Dafina Salihu" width="210" height="250">
             <p>Hi there! I'm Dafina,i was born in Gjilan,Kosovo in 1991, i studied for architecture and lately i'm
                 learning for coding,my dream is to work with brands globally to create purpose driven websites that
@@ -41,34 +41,36 @@
         </article>
 
         <section class="section-1">
-            <h2>Education:</h2>
+            <h2 class="section-header">Education:</h2>
             <ul>
-                <div class="list-education1">
-                    <li>Primary school:</li>
+                <li>
+                    <h3 class="header-3">Primary school:</h3>
+
                     <ul>
                         <li><strong>Random school</strong> 1997-2005</li>
                         <li><strong>English Course</strong> 2003-2006</li>
                     </ul>
-                </div>
+                </li>
 
-                <div class="list-education2">
-                    <li>High School:</li>
+                <li>
+                    <h3 class="header-3">High School:</h3>
                     <ul>
                         <li><strong>Technical school of architecture</strong> 2006-2010</li>
                     </ul>
-                </div>
-                <div class="list-education3">
-                    <li>University:</li>
+                </li>
+
+                <li>
+                    <h3 class="header-3">University:</h3>
                     <ul>
                         <li>Bachelor&#39;s degree in <strong>Architecture</strong> at Aab University 2011-2014</li>
                     </ul>
+                </li>
             </ul>
-            </div>
         </section>
 
-        <section>
-            <h2>My Skills</h2>
-            <table border="1">
+        <section class="section-2">
+            <h2 class="section-header">My Skills</h2>
+            <table class="table" border="1">
                 <tr>
                     <th>#</th>
                     <th>English Language</th>
@@ -79,18 +81,20 @@
                     <th>Networking</th>
                 </tr>
                 <br>
-                <th>Rating </th>
-                <td>9.0</td>
-                <td>7.5</td>
-                <td>5.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
+                <tr>
+                    <th>Rating </th>
+                    <td>9.0</td>
+                    <td>7.5</td>
+                    <td>5.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
             </table>
         </section>
 
         <aside>
-            <h2>My Work Experience</h2>
+            <h2 class="section-header">My Work Experience</h2>
 
             <ul>
                 <li><strong>ArchNndertimi Sh.p.k</strong> 2014-2020</li>
@@ -108,12 +112,14 @@
             </ul>
         </aside>
 
-        <section>
-            <h2>My Projects</h2>
+        <section class="projects">
+            <h2 class="section-header">My Projects</h2>
             <ol>
-                <li id="P1">ArchEcm <a href="myprojects.html#H1">&rarr;Read More</a></li>
-                <li id="P2">Pizza House <a href="myprojects.html#H2">&rarr;Read More</a></li>
-                <li id="P3">Dream Shop <a href="myprojects.html#H3">&rarr;Read More</a></li>
+                <li id="P1">ArchEcm <a href="myprojects.html#H1"><span class="readmore">&rarr;</span></a></li>
+                <br>
+                <li id="P2">Pizza House <a href="myprojects.html#H2"><span class="readmore">&rarr;</span></a></li>
+                <br>
+                <li id="P3">Dream Shop <a href="myprojects.html#H3"><span class="readmore">&rarr;</span></a></li>
             </ol>
         </section>
     </main>
@@ -121,6 +127,7 @@
         <hr>
         <p>All right reserved Dafina Salihu &copy;</p>
     </footer>
+    </div>
 </body>
 
 </html>
