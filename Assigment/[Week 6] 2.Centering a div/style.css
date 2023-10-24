@@ -5,24 +5,15 @@ body{
  
 }
 
-header{
-    background-color: rgb(235, 235, 173);
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .container{
-    margin: 2em;
+    background-color: rgb(203, 203, 112);
     border: 2px solid black;
+    margin: 2em;
     padding: 1rem;
-    background-color: white;
     display: flex;
     flex-direction: column;
-
-    
-    
 }
 
 .text{

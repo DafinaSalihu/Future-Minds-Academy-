@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Blogposts</title>
+    <style>
+        body {
+            margin: 2rem;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .blogposts {
+            width: 600px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: 2em 1em 2em 1em;
+            display: flex;
+            gap: 2em;
+
+        }
+   
+        .simple-blog {
+            background-color: rgb(46, 46, 75);
+            color: white;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 30px;
+            direction: rtl;
+        }
+
+        .right-posts {
+            display: flex;
+            flex-direction: column;
+            gap: 4em;
+            
+        }
+        .pinned-post {
+            margin: 0;
+            color: rgb(147, 146, 146);
+        
+        }
+        .CSS{
+            background-color: rgb(23, 179, 23);
+            color: white;
+            padding:0.5px 5px 0.5px 5px;
+        }
+        .HTML{
+            background-color: rgb(36, 68, 185);
+            color: white;
+            padding:0.5px 5px 0.5px 5px;
+
+        }
+        .JAVASCRIPT{
+            background-color: rgb(245, 8, 8);
+            color: white;
+            padding:0.5px 5px 0.5px 5px;
+        }
+        .post{
+            position: relative;
+        }
+        .image{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            right: 5px;
+            top: 30px;
+            border-radius: 50%;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="blogposts">
+        <div class="simple-blog">
+            <h1>A <br>Simple <br>Blog</h1>
+            <p>Lorem ipsum <br>dolor</p>
+        </div>
+
+
+        <div class="right-posts">
+            <div class="post">
+                <h6  class="pinned-post">PINNED POST</h6>
+                <div class="image" style="background-image: url(img/AnaMarsel.jpg);"></div>
+                <hr>
+                <h1>A pinned post</h1>
+                
+                <p>By <a href="">John Doe</a> under <span class="CSS">CSS</span> <span class="HTML">HTML</span></p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magnam consequuntur voluptas dolorem obcaecati ea eius eos temporibus itaque repellendus. Atque
+                    iusto
+                    possimus provident laudantium,
+                    quidem cum amet blanditiis rerum magnam!</p>
+            </div>
+
+            <div class="post">
+                <h6 class="pinned-post">PINNED POST</h6>
+                <div class="image" style="background-image: url(img/AnaMarsel.jpg);"></div>
+                <hr>
+                <h1>A pinned post</h1>
+               
+                <p>By <a href="">Rocky Balboa</a> under <span class="JAVASCRIPT">Javaskript</span> </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Magnam consequuntur voluptas dolorem obcaecati ea eius eos temporibus itaque repellendus. Atque
+                    iusto
+                    possimus provident laudantium,
+                    quidem cum amet blanditiis rerum magnam!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
