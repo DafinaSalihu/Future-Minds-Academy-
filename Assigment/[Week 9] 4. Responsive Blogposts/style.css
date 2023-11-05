@@ -1,0 +1,133 @@
+
+.blogposts{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1 fr auto;
+    column-gap: 1em;
+}
+.simple-blog{
+    grid-column: auto ;
+    grid-row: 1 / 3 ; 
+    background-color: rgb(42, 42, 127);
+    color: black;
+    direction: rtl;
+    padding: 2em;
+    
+}
+
+
+.right-posts{
+    grid-column: auto;
+    grid-row: 1 / 2;
+    padding-right: 3rem;
+    gap:2rem ;
+}
+.left-posts{
+    grid-column: auto;
+    grid-row: 2 / 3;
+}
+
+.pinned-post {
+    margin: 0;
+    color: rgb(147, 146, 146);
+
+}
+.CSS{
+    font-size: 0.8em;
+    background-color: rgb(23, 179, 23);
+    color: white;
+    text-align: center;
+    padding:0.5px 5px 0.5px 5px;
+}
+.HTML{
+    font-size: 0.8em;
+    background-color: rgb(36, 68, 185);
+    color: white;
+    text-align: center;
+    padding:0.5px 5px 0.5px 5px;
+
+}
+.JAVASCRIPT{
+    font-size: 0.8em;
+    background-color: rgb(245, 8, 8);
+    color: white;
+    text-align: center;
+    padding:0.3px 5px 0.7px 5px;
+}
+.post{
+    position: relative;
+}
+.image{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+@media screen and (min-width: 720px){
+
+    .blogposts{
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1 fr auto;
+    }
+    .simple-blog{
+        grid-column: auto ;
+        grid-row: 1 / 3 ;     
+    }
+    
+    
+    .right-posts{
+        grid-column: auto;
+        grid-row: 1 / 2;
+       
+    }
+    .left-posts{
+        grid-column: auto;
+        grid-row: 2 / 3;
+    }
+    
+    .pinned-post {
+        margin: 0;
+        color: rgb(147, 146, 146);
+    
+    }
+    .CSS{
+        font-size: 0.8em;
+        background-color: rgb(23, 179, 23);
+        color: white;
+        text-align: center;
+        padding:0.5px 5px 0.5px 5px;
+    }
+    .HTML{
+        font-size: 0.8em;
+        background-color: rgb(36, 68, 185);
+        color: white;
+        text-align: center;
+        padding:0.5px 5px 0.5px 5px;
+    
+    }
+    .JAVASCRIPT{
+        font-size: 0.8em;
+        background-color: rgb(245, 8, 8);
+        color: white;
+        text-align: center;
+        padding:0.3px 5px 0.7px 5px;
+    }
+    .post{
+        position: relative;
+    }
+    .image{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 5px;
+        top: 40px;
+        border-radius: 50%;
+        background-size: cover;
+    }
+
+
+}

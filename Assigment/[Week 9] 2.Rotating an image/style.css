@@ -1,0 +1,14 @@
+img{
+    filter: blur(10px);
+    cursor: pointer;
+    transition-property: filter, rotate ;
+    transition-duration: 0.6s;
+    transition-delay: 0s;
+    
+}
+img:hover{
+    filter: blur(0px);
+    rotate: 720deg;
+    transition-timing-function: linear;
+  
+}
