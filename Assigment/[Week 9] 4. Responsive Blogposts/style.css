@@ -67,7 +67,7 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 1020px){
 
     .blogposts{
         grid-template-rows: auto 1fr auto;
