@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="content">
+    <div class="aside">
         <div class="menu">
             <nav>
                 <ul>
@@ -110,25 +110,269 @@
             </nav>
         </div>
     </div>
-    <header>
-        <div class="left-header">
-            <span class="material-icons">more_vert</span>
-            <p class="header-deshboard">Dashboard</p>
-        </div>
-        <div>
-            <span class="right-header">
-                <input type="text" class="search-bar-input" placeholder="Search">
-                <span id="search-bar" class="material-icons">search</span>
-            </span>
-            <span class="right-icon">
-                    <span id="icon" class="material-icons">dashboard</span>
-                    <span id="icon" class="material-icons">notifications</span>
-                    <span id="icon" class="material-icons">person</span>
-            </span>
-        </div>
+    <div class="right-content">
+      
+        <header>
+            <div class="left-header">
+                <span class="material-icons more-vert">more_vert</span>
+                <p class="header-dashboard">Dashboard </p>
 
-    </header>
+            </div>
+            <div class="search-bar-icon">
+                <div class="right-header">
+                    <input type="text" class="search-bar-input" placeholder="Search">
+                    <span id="search-bar" class="material-icons more-vert">search</span>
+                </div>
+                <div class="right-icon">
+                    <div class="icon dashboard"><span class="material-icons">dashboard</span> </div>
+                    <div class="notification icon"><span class="material-icons">notifications</span>
+                        <p class="numberofnotification">5</p>
+                        <div class="dropdownmenu">
+                            <p class="dropdown">John Doe send a message</p>
+                            <p class="dropdown">Someone viewed your profile</p>
+                            <p class="dropdown">John Doe send a message</p>
+                            <p class="dropdown">Someone viewed your profile</p>
+                            <p class="dropdown">Another notification</p>
+                        </div>
+                    </div>
+                    <div class="icon person"><span class="material-icons">person</span></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="global">
+                <div class="global-icon-p">
+                    <span class="material-icons language">language</span>
+                    <p>Global Sales by Top Locations</p>
+                </div>
 
+                <div class="frameandtable">
+                    <div>
+                        <table class="table">
+                            <tr class="trtable">
+                                <td class="img"><img src="images/usaflag.jpg" alt="usaflag" width="25" height="25"></td>
+                                <td>USA</td>
+                                <td></td>
+                                <td>2.900</td>
+                                <td>53.23%</td>
+                            </tr>
+                            <tr class="trtable">
+                                <td><img src="images/germa.png" alt="germanyflag" width="25" height="25"></td>
+                                <td>Germany</td>
+                                <td></td>
+                                <td>1.300</td>
+                                <td>4.34%</td>
+                            </tr>
+                            <tr class="trtable">
+                                <td><img src="images/autraliaflag.png" alt="australiaflag" width="25" height="25"></td>
+                                <td>Australia</td>
+                                <td></td>
+                                <td>760</td>
+                                <td>20.43%</td>
+                            </tr>
+                            <tr class="trtable">
+                                <td><img src="images/uunitekingdomfrag.png" alt="unitekingdomflag" width="25"
+                                        height="25"></td>
+                                <td>United Kingdom</td>
+                                <td></td>
+                                <td>690</td>
+                                <td>10.35%</td>
+                            </tr>
+                            <tr class="trtable">
+                                <td><img src="images/romaniaflag.png" alt="romaniaflag" width="25" height="25"></td>
+                                <td>Romania</td>
+                                <td></td>
+                                <td>600</td>
+                                <td>7.87%</td>
+                            </tr>
+                            <tr class="trtable">
+                                <td><img src="images/braazilfrag.png" alt="brazilflag" width="25" height="25"></td>
+                                <td>Brazil</td>
+                                <td></td>
+                                <td>550</td>
+                                <td>5.94%</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="iframe">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03605587495!2d-74.30932772468381!3d40.69753996568664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1699737549850!5m2!1sen!2s"
+                            width="1100px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ratings">
+                <div class="bookingcontent">
+                    <div class="bookings">
+                        <div>
+                            <span class="material-icons bookingicon">weekend</span>
+                        </div>
+                        <div>
+                            <p class="rating-booking">Booking</p>
+                            <p class="rating-184">184</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="morespace">
+                        <span class="material-icons">warning</span>
+                        <span>Get more space</span>
+                    </div>
+                </div>
+
+                <div class="bookingcontent">
+                    <div class="bookings">
+                        <div>
+                            <span class="material-icons bar_chart">bar_chart</span>
+                        </div>
+                        <div>
+                            <p class="rating-booking">Website Visits</p>
+                            <p class="rating-184">75.521</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="morespace">
+                        <span class="material-icons">sell</span>
+                        <span>Tracked from Google Analytics</span>
+                    </div>
+                </div>
+
+                <div class="bookingcontent">
+                    <div class="bookings">
+                        <div>
+                            <span class="material-icons collectionsbookmark">collections_bookmark</span>
+                        </div>
+                        <div>
+                            <p class="rating-booking">Revenue</p>
+                            <p class="rating-184">$34.245</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="morespace">
+                        <span class="material-icons">label_important</span>
+                        <span>Last 24 hours</span>
+                    </div>
+                </div>
+
+
+                <div class="bookingcontent">
+                    <div class="bookings">
+                        <div>
+                            <span class="material-icons public">public</span>
+                        </div>
+                        <div>
+                            <p class="rating-booking">Followers</p>
+                            <p class="rating-184">+245</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="morespace">
+                        <span class="material-icons">update</span>
+                        <span>Just Updated</span>
+                    </div>
+                </div>
+            </section>
+            <p class="listchapter">Manage Listing</p>
+            <section class="managelisting">
+                <div class="managelistcontent">
+                    <div class="contentimages">
+                        <img src="images/card-1.jpeg" alt="Montain" width="400" height="300">
+
+                        <span class="manageicons">
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons edit">edit</span>
+                            <span class="material-icons close">close</span>
+                        </span>
+                        <p class="cart-1-p">Cozy 5 Stars Apartment</p>
+                        <p class="cart-1-p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi facere
+                            tempora, necessitatibus quisquam obcaecati ad, assumenda quo ipsa laudantium quasi aut
+                            quaerat voluptates quibusdam ex dolorum labore pariatur maiores. Quam.</p>
+                        <hr>
+                        <div class="cart1footer">
+                            <div>$899/Night</div>
+                            <div class="locationcart1">
+                                <span class="material-icons">location_on</span>
+                                <span>Barcelon,Spain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="managelistcontent">
+                    <div class="contentimages">
+                        <img src="images/card-2.jpeg" alt="Montain" width="400" height="300">
+
+                        <span class="manageicons">
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons edit">edit</span>
+                            <span class="material-icons close">close</span>
+                        </span>
+                        <p class="cart-1-p">Cozy 5 Stars Apartment</p>
+                        <p class="cart-1-p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi facere
+                            tempora, necessitatibus quisquam obcaecati ad, assumenda quo ipsa laudantium quasi aut
+                            quaerat voluptates quibusdam ex dolorum labore pariatur maiores. Quam.</p>
+                        <hr>
+                        <div class="cart1footer">
+                            <div>$1.199/Night</div>
+                            <div class="locationcart1">
+                                <span class="material-icons">location_on</span>
+                                <span>London,UK</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="managelistcontent">
+                    <div class="contentimages">
+                        <img src="images/card-3.jpeg" alt="Montain" width="400" height="300">
+
+                        <span class="manageicons">
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons edit">edit</span>
+                            <span class="material-icons close">close</span>
+                        </span>
+                        <p class="cart-1-p">Cozy 5 Stars Apartment</p>
+                        <p class="cart-1-p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi facere
+                            tempora, necessitatibus quisquam obcaecati ad, assumenda quo ipsa laudantium quasi aut
+                            quaerat voluptates quibusdam ex dolorum labore pariatur maiores. Quam.</p>
+                        <hr>
+                        <div class="cart1footer">
+                            <div>$459/Night</div>
+                            <div class="locationcart1">
+                                <span class="material-icons">location_on</span>
+                                <span>Milano,Italy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+        <hr>
+        <footer>
+            <div class="footercontent">
+                <div>
+                    <span class="footerlist">
+                        <a href="HOME">Home</a>
+                        <a href="profile">Company</a>
+                        <a href="adada">Portfolio</a>
+                        <a href="afafaf">Blog</a>
+                    </span>
+                </div>
+                <div>
+                    <span>&copy Dafina Salihu.2023</span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <div class="main">
+
+    </div>
+    </div>
 </body>
 
 </html>
