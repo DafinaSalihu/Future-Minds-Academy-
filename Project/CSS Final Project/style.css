@@ -202,7 +202,7 @@ header{
   }
   .right-content{
     margin: 2rem;
-    overflow-y: scroll;
+  
   }
   .global{
     background-color: white;
@@ -242,10 +242,11 @@ table td{
 }
 .frameandtable{
     display: flex;
+
 }
 .iframe{
     margin: 2rem;
-    width: 100%;
+    flex-grow: 1;
     height: auto;
 }
 
