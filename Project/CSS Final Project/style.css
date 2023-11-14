@@ -232,7 +232,8 @@ header{
   }
  .table{
     border-collapse: collapse;
-    margin: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     width: 20rem;
  }
 table td{
@@ -241,15 +242,18 @@ table td{
 .frameandtable{
     display: flex;
     gap: 0.5rem;
-
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    
 }
    
 .iframee{
     flex-grow: 1;
     height: auto;
+    box-sizing: border-box;
 }
 .iframe{
-    margin: 2rem;
+    padding-right: 2rem;
     display: flex;
     width: 100%;
 }
@@ -474,17 +478,17 @@ img:hover + .manageicons{
   
     .frameandtable{
         display: grid;
-        gap: 0.5rem;
-    
+        gap: 2rem;
+        
     }
     .iframe{
-        margin: 2rem;
+        margin-left: 2rem;
         display: flex;
         width: auto;
+       
     }
     .table{
-        border-collapse: collapse;
-        margin: 2rem;
+        border-collapse: collapse;  
         width: 90%;
      }
     .managelisting{
@@ -511,18 +515,19 @@ img:hover + .manageicons{
   
     .frameandtable{
         display: grid;
-        gap: 0.5rem;
-    
+        gap: 2rem;
+        
     }
     .iframe{
-        margin: 2rem;
+        margin-left: 2rem;
         display: flex;
         width: auto;
+       
     }
     .table{
-        border-collapse: collapse;
-        margin: 2rem;
+        border-collapse: collapse;  
         width: 90%;
+        margin-left: 2rem;
      }
     .managelisting{
         display: grid;
