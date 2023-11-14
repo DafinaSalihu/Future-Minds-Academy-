@@ -387,8 +387,16 @@ table td{
     justify-content: center;
     margin-top: -1.6rem;
     visibility: hidden;
-    cursor: pointer;
     gap: 1rem;
+}
+.edit{
+    cursor: pointer;
+}
+.view{
+    cursor: pointer;
+}
+.close{
+    cursor: pointer;
 }
 
 .contentimages img:hover { 
