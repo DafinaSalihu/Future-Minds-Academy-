@@ -237,8 +237,12 @@ header{
     margin-right: 2rem;
     width: 20rem;
  }
-table td{
+table tr{
     border-bottom: 1px solid black;
+}
+
+table tr:last-child{
+    border-bottom: none;
 }
 .frameandtable{
     display: flex;
