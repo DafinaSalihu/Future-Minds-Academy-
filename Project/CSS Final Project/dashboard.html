@@ -35,10 +35,11 @@
                         <h3>John Doe</h3>
                     </li>
                     <hr>
-                    <li class="reddashboard">
+                    <li class="active">
                         <a href="#">
                             <span class="material-icons">dashboard</span>
                             <p>Dashboard</p>
+                            <span class="material-icons" style="visibility: hidden;">expand_more</span>
                         </a>
                     </li>
                     <li>
@@ -113,13 +114,14 @@
     <div class="right-content">
         <div class="table-header">
             <div class="left-header">
-                
+
                 <p class="header-dashboard">Dashboard </p>
             </div>
             <div>
                 <span class="material-icons ">menu</span>
             </div>
         </div>
+
         <header>
             <div class="left-header">
                 <span class="material-icons more-vert">more_vert</span>
@@ -130,19 +132,27 @@
                     <input type="text" class="search-bar-input" placeholder="Search">
                     <span id="search-bar" class="material-icons more-vert">search</span>
                 </div>
-                <div class="right-icon">
-                    <div class="icon dashboard"><span class="material-icons">dashboard</span> </div>
-                    <div class="notification icon"><span class="material-icons">notifications</span>
-                        <p class="numberofnotification">5</p>
-                        <div class="dropdownmenu">
-                            <p class="dropdown">John Doe send a message</p>
-                            <p class="dropdown">Someone viewed your profile</p>
-                            <p class="dropdown">John Doe send a message</p>
-                            <p class="dropdown">Someone viewed your profile</p>
-                            <p class="dropdown">Another notification</p>
-                        </div>
+               <div class="right-icon">
+                <ul>
+                    <li id="dashboard-opacity"><span class="material-icons">dashboard</span> 
+                     <div class="dashboardopacity">Dashboard</div>
+                    </li>
+                    <li id="notification"><span class="material-icons">notifications</span>
+                    <span class="numberofnotification">5</span>
+                    <div class="dropdownmenu">
+                        <p class="dropdown">John Doe send a message</p>
+                        <p class="dropdown">Someone viewed your profile</p>
+                        <p class="dropdown">John Doe send a message</p>
+                        <p class="dropdown">Someone viewed your profile</p>
+                        <p class="dropdown">Another notification</p>
                     </div>
-                    <div class="icon person"><span class="material-icons">person</span></div>
+                    <div id="notification-opacity"></div> 
+                    <div class="notificationopacity">Notification</div>
+                </li>
+                    <li id="person-opacity"><span class="material-icons">person</span>
+                    <div class="personopacity">Profile</div>
+                    </li>
+                </ul>
                 </div>
             </div>
         </header>
@@ -280,18 +290,20 @@
                         <span>Just Updated</span>
                     </div>
                 </div>
-            </section >
+            </section>
             <p class="listchapter">Manage Listing</p>
             <section class="managelisting">
                 <div class="managelistcontent">
-                    <div class="contentimages">
-                        <img src="images/card-1.jpeg" alt="Montain">
+                    <div class="img-icons">
+                        <div class="contentimages">
+                            <img src="images/card-1.jpeg" alt="Montain">
 
-                        <span class="manageicons">
-                            <span class="material-icons view">visibility</span>
-                            <span class="material-icons edit">edit</span>
-                            <span class="material-icons close">close</span>
-                        </span>
+                            <span class="manageicons">
+                                <span class="material-icons view">visibility</span>
+                                <span class="material-icons edit">edit</span>
+                                <span class="material-icons close">close</span>
+                            </span>
+                        </div>
                         <p class="cart-1-p">Cozy 5 Stars Apartment</p>
                         <p class="cart-1-p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi facere
                             tempora, necessitatibus quisquam obcaecati ad, assumenda quo ipsa laudantium quasi aut
