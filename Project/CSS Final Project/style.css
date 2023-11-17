@@ -113,7 +113,21 @@ header{
 .more-vert:hover{
     box-shadow:0 0 15px rgb(111, 108, 108);
 }
-    
+   
+.menuopacity{
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 0.7rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    transition: all 0.5s 0.5s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+#menu:hover .menuopacity{
+    opacity: 1;
+    visibility: visible;
+}
 .search-bar-input{
    outline: none;
    border: none;
@@ -130,24 +144,31 @@ header{
 
 .right-header{
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
     font-size: 1.5rem;
 }
+.right-icon{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .right-icon ul {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     position: relative;
     gap: 1rem;
-    color: rgb(43, 42, 42);
-    align-items: center;
+    color: rgb(60, 58, 58);
+    
 }
 
  ul li{
-    display: block;
     cursor: pointer;
-    text-align: center;
+   
 }
 .numberofnotification{
     position:absolute;
@@ -157,8 +178,8 @@ header{
     color: white;
     text-align: center;
     border-radius: 50%;
-    width: 18px;
-    font-size: 0.9rem;
+    width: 16px;
+    font-size: 0.8rem;
 }
    .dropdownmenu{
     display: block; 
@@ -192,6 +213,8 @@ header{
     padding: 0.5rem;
   }
   .dashboardopacity{
+    display: flex;
+    text-align: center;
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
@@ -203,6 +226,8 @@ header{
     opacity: 1;
   }
   .notificationopacity{
+    display: flex;
+    text-align: center;
     background-color: rgb(33, 32, 32);
     color: white;
     padding: 0.1rem;
@@ -214,7 +239,8 @@ header{
     opacity: 1;
  }
  .personopacity{
-    box-sizing: border-box;
+    display: flex;
+    text-align: center;
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
