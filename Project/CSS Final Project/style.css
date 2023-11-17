@@ -467,7 +467,7 @@ table tr:last-child{
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
-   padding: 0.2rem;
+   padding: 0.1rem;
     transition: all 0.3s 0.3s linear;
     opacity: 0;
     visibility: hidden;
@@ -481,7 +481,7 @@ table tr:last-child{
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
-   padding: 0.2rem;
+   padding: 0.1rem;
     transition: all 0.3s 0.3s linear;
     opacity: 0;
     visibility: hidden;
@@ -495,7 +495,7 @@ table tr:last-child{
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
-   padding: 0.2rem;
+   padding: 0.1rem;
     transition: all 0.3s 0.3s linear;
     opacity: 0;
     visibility: hidden;
