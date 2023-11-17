@@ -244,8 +244,7 @@ header{
     background-color: rgb(33, 32, 32);
     color: white;
     font-size: 0.7rem;
-    padding-left: 0.1rem;
-    padding-right: 0.1rem;
+    padding: 0.1rem;
     transition: all 0.5s 0.5s linear;
     opacity: 0;
  }
@@ -440,13 +439,13 @@ table tr:last-child{
     border-radius: 0.5rem;
    
 }
-
 .contentimages img{
  padding-left: 2rem;
  padding-right: 2rem;
  margin-top: -1rem;
  cursor: pointer;
  width: 100%;
+ 
 }
 
 .manageicons{
@@ -455,24 +454,58 @@ table tr:last-child{
     margin-top: -1.6rem;
     visibility: hidden;
     gap: 1rem;
-}
-.edit{
-    cursor: pointer;
-}
-.view{
-    cursor: pointer;
-}
-.close{
     cursor: pointer;
 }
 
-
-.contentimages img:hover { 
+#img-icons:hover .contentimages img{ 
   transform: translateY(-2rem);
   transition: all 0.8s ease-in-out;
   border-radius:1rem;
 }
-img:hover + .manageicons{
+.viewopacity{
+    display: block;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 0.7rem;
+   padding: 0.2rem;
+    transition: all 0.3s 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+#view-opacity:hover .viewopacity{
+    opacity: 1;
+    visibility: visible;
+}
+.editopacity{
+    display: block;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 0.7rem;
+   padding: 0.2rem;
+    transition: all 0.3s 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+#edit-opacity:hover .editopacity{
+    opacity: 1;
+    visibility: visible;
+}
+.deleteopacity{
+    display: block;
+    background-color: rgb(33, 32, 32);
+    color: white;
+    font-size: 0.7rem;
+   padding: 0.2rem;
+    transition: all 0.3s 0.3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+#delete-opacity:hover .deleteopacity{
+    opacity: 1;
+    visibility: visible;
+}
+
+#img-icons:hover .manageicons{
     visibility: visible;
 }
 .cart-1-p{
