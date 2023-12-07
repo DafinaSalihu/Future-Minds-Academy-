@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap Year</title>
+</head>
+<body>
+    <script>
+        let year=parseInt(prompt('Write a Year'));
+
+        if((year % 4 ==0)&&(year % 100 !=0) || (year% 400 ==0)){
+            console.log('Is a Leap Year');
+        }
+        else{
+            console.log('Is not a leap year');
+        }
+
+    </script>
+</body>
+</html>

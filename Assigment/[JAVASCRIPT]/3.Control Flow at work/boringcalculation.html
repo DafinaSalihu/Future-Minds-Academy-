@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boring Calculation</title>
+</head>
+<body>
+    <script>
+        let firstNumber = parseFloat('Write the first number:');
+        let secondNumber = parseFloat('Write the second number');
+        let operator = prompt('What opetation do you want to apply').toLocaleLowerCase();
+        let result;
+
+        switch (operator){
+            case '+':
+                result=firstNumber+secondNumber;
+                break;
+            case '-':
+                result=firstNumber-secondNumber;
+                break;
+            case '*':
+                result=firstNumber*secondNumber;
+                break;
+            case '/':
+                result=firstNumber/secondNumber;
+                break;        
+        }
+        console.log(`The result is: ${result}`);
+    </script>
+</body>
+</html>
