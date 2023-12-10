@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="input">
+        <label for="text">Si quheni</label>
+        <input type="text" id="name" placeholder="Error">
+    </div>
+
+    <script>
+        let language= prompt('Cfare gjuhe flisni ');
+        let placeholder;
+
+        if(language == 'en'){
+            placeholder='Jonh Doe';
+        }
+        else if(language=='sq'){
+            placeholder='Filan Fisteku';
+        }
+        else if(language=='de'){
+            placeholder='Max Dikushi';
+        }
+        else{
+            throw new Error ('Unknown Language')
+        }
+
+        console.log(`Your Name is ${placeholder}`);
+        
+        let Detyra = document.getElementById('name');
+        Detyra.setAttribute('placeholder',placeholder);
+    </script>
+</body>
+
+</html>
