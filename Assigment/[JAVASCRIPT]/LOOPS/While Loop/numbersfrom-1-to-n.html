@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers from 1 to n</title>
+</head>
+<body>
+    <script>
+        let userInput = prompt("Please enter a positive integer from 1 to 100:");
+        let number = parseInt(userInput);
+        let result = "";
+
+while (isNaN(number) || number < 1 || number > 100) {
+  userInput = prompt("Invalid input. Please enter a positive integer from 1 to 100:");
+  number = parseInt(userInput);
+}
+
+let counter = 1;
+while (counter <= number) {
+  result += counter;
+  if (counter < number) {
+    result += ", ";
+  }
+  counter++;
+}
+
+console.log(result);
+
+    </script>
+</body>
+</html>
