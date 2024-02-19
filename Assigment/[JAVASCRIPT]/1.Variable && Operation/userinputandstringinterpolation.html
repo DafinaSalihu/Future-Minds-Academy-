@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Input and String Interpolation</title>
+    <title>User Input String Interpolation</title>
 </head>
 <body>
     <script>
-        let name=prompt('First Name');
-        let age=prompt('Your Age');
-
-        let outputSentence = `Your name is ${name} and you are ${age} years old.`;
+        let firstName = prompt('Type your name?');
+        let age = prompt('Type your age?');
+        let outputSentence = `Your name is ${firstName} and you are ${age} years old`;
 
         console.log(outputSentence);
     </script>

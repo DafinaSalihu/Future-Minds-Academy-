@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Working Citizen </title>
+</head>
+<body>
+    <script>
+        /*
+        *Ky funksion kontrollon moshen 
+        *nje person llogaritet working citizem.
+        */
+        function isWorkingCitizen(age){
+            //perform the logic
+            return age>= 18 && age < 65;
+        }
+        let age = prompt('Mosha Juaj');
+        if(isWorkingCitizen(age)){
+            console.log('Welcome');
+        }
+        else{
+            console.log('Error')
+        }
+    </script>
+</body>
+</html>
